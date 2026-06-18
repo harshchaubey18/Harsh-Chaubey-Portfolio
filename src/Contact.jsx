@@ -62,25 +62,25 @@ const Contact = () => {
     {
       label: "Email",
 
-      value: "amitpathak00700@gmail.com",
+      value: "harshchaubey566@gmail.com",
 
-      href: "mailto:amitpathak00700@gmail.com",
+      href: "mailto:harshchaubey566@gmail.com",
     },
 
     {
       label: "GitHub",
 
-      value: "Amitp0070",
+      value: "harshchaubey18",
 
-      href: "https://github.com/Amitp0070",
+      href: "https://github.com/harshchaubey18",
     },
 
     {
       label: "LinkedIn",
 
-      value: "linkedin.com/in/amit-pathak",
+      value: "linkedin.com/in/harsh-chaubey",
 
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/in/harsh-chaubey-794657321/",
     },
 
     {
@@ -94,9 +94,9 @@ const Contact = () => {
     {
       label: "Phone",
 
-      value: "+91 6393588327",
+      value: "+91 8957785830",
 
-      href: "tel:+916393588327",
+      href: "tel:+918957785830",
     },
   ];
 

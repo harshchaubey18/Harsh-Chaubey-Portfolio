@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="font-bold text-dark text-sm">Amit Pathak</p>
+            <p className="font-bold text-dark text-sm">Harsh Chaubey</p>
 
             <p className="font-mono-custom text-xs text-dark">
               Backend Developer
@@ -89,7 +89,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="font-mono-custom text-dark text-xs">
-          © {year} Amit Pathak
+          © {year} Harsh Chaubey
         </p>
       </div>
     </footer>

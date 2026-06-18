@@ -109,7 +109,7 @@ const About = () => {
                   borderRadius: "4px",
                 }}
               >
-                AP
+                HC
               </div>
 
               <div>
@@ -117,7 +117,7 @@ const About = () => {
                   className="font-bold text-xl"
                   style={{ color: "var(--text-primary)" }}
                 >
-                  Amit Pathak
+                  Harsh Chaubey
                 </h3>
 
                 <p
@@ -161,7 +161,7 @@ const About = () => {
 
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="https://github.com/Amitp0070"
+                href="https://github.com/harshchaubey18"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline px-4 py-2 text-xs"
@@ -173,7 +173,7 @@ const About = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/harsh-chaubey-794657321/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline px-4 py-2 text-xs"
@@ -185,7 +185,7 @@ const About = () => {
               </a>
 
               <a
-                href="mailto:amitpathak00700@gmail.com"
+                href="mailto:harshchaubey566@gmail.com"
                 className="btn-primary px-4 py-2 text-xs"
                 style={{
                   borderRadius: "4px",

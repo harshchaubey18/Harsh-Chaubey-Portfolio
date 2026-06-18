@@ -4,14 +4,14 @@ const EXPERIENCES = [
   {
     company: "TechnoBren Infotech Pvt. Ltd.",
     role: "Software Developer",
-    period: "March 2025 – Present",
+    period: "September 2025 – Present",
     location: "Jaunpur, India",
     type: "Full-time",
     color: "#ff2d20",
 
     projects: [
       {
-        name: "Hariss International — Laravel Backend System",
+        name: "Shift Fitness — Laravel Backend System",
 
         tags: [
           "PHP",
@@ -26,35 +26,35 @@ const EXPERIENCES = [
         ],
 
         bullets: [
-          "Gained hands-on experience in backend development using PHP, Laravel, and SQL to build scalable and secure web applications following MVC architecture.",
-          "Developed and consumed RESTful APIs, implemented CRUD operations, and worked with Laravel Controllers, Services, Requests, and Resources for clean code structure.",
-          "Utilized Eloquent ORM for database interactions, relationships, query optimization, indexing, and efficient data filtering.",
-          "Implemented form request validation, centralized exception handling, and standardized API responses for maintainable backend systems.",
-          "Worked with authentication and authorization mechanisms including Laravel Passport, Sanctum, middleware, and role-based access control.",
-          "Integrated SAP systems with Laravel applications for seamless data synchronization, inventory management, and enterprise workflow automation.",
-          "Integrated EFRIS (Electronic Fiscal Receipting and Invoicing Solution) to automate stock management and tax handling, ensuring real-time fiscal compliance and accurate inventory tracking.",
-          "Performed API testing and debugging using Postman while collaborating with cross-functional teams to refactor code and deploy application updates efficiently.",
+          "Developed backend modules for gym member management, trainer onboarding, and subscription handling using PHP and Laravel.",
+  "Built RESTful APIs for workout plan generation, progress tracking, and personalized fitness recommendations.",
+  "Integrated AI-powered chat system to assist users with workout guidance, fitness queries, and personalized suggestions.",
+  "Implemented real-time chat functionality between gym members and trainers for consultation and workout support.",
+  "Designed and optimized database schemas for user profiles, workout history, diet plans, and fitness progress tracking using MySQL/PostgreSQL.",
+  "Developed secure authentication and role-based access control for admins, trainers, and gym members using Laravel Sanctum and Passport.",
+  "Implemented scheduling APIs for trainer sessions, workout bookings, and class management.",
+  "Tested and debugged APIs using Postman while collaborating with frontend teams for smooth integration and deployment."
         ],
       },
     ],
   },
 
   {
-    company: "Digipodium — IT Training & Technology Research Center",
+    company: "Techpile Technology Pvt Ltd.",
 
     role: "Software Developer Intern",
 
-    period: "June 2024 – September 2024",
+    period: "July 2024 – September 2024",
 
     location: "Lucknow, India",
 
-    type: "Internship",
+    type: "Summer Tranning",
 
     color: "#2563eb",
 
     projects: [
       {
-        name: "CookingStories — Recipe Sharing Platform",
+        name: "College Mangement System",
 
         tags: [
           "Django",
@@ -68,11 +68,14 @@ const EXPERIENCES = [
         ],
 
         bullets: [
-          "Built a recipe-sharing web platform using Django following MVC architecture and responsive frontend development practices.",
-          "Implemented authentication, recipe management, category-based filtering, and CRUD functionalities for content management.",
-          "Designed responsive user interfaces using HTML, CSS, Bootstrap, and Tailwind CSS for improved user experience.",
-          "Worked on backend logic, database management using SQLite, and frontend integration for dynamic content rendering.",
-          "Collaborated with team members on debugging, UI improvements, and performance optimization for web applications.",
+           "Developed a College Management System using Django to streamline student, faculty, and course management processes.",
+  "Implemented modules for student registration, attendance tracking, timetable management, and examination records.",
+  "Built authentication and role-based access for admins, teachers, and students to ensure secure access control.",
+  "Designed responsive dashboards and user interfaces using HTML, CSS, Bootstrap, and Tailwind CSS for better usability.",
+  "Managed backend logic and database operations using SQLite for storing student records, course details, and academic data.",
+  "Integrated features for assignment submission, result publishing, and academic progress tracking.",
+  "Implemented CRUD functionalities for managing departments, courses, faculty details, and student profiles.",
+  "Collaborated on debugging, UI enhancements, and performance optimization to improve system efficiency."
         ],
       },
     ],

@@ -88,14 +88,14 @@ const Header = () => {
                 borderRadius: "4px",
               }}
             >
-              AP
+              HC
             </div>
 
             <span
               className="font-bold text-base tracking-tight hidden sm:block"
               style={{ color: "var(--text-primary)" }}
             >
-              Amit Pathak
+              Harsh Chaubey
             </span>
           </button>
 
