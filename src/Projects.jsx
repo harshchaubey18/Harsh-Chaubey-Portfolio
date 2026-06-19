@@ -42,132 +42,151 @@ const PROJECTS = [
   },
 
   {
-    title: "CookingStories",
-    subtitle: "Recipe Sharing Platform",
+    title: "Shift Fitness App",
+    subtitle: "Fitness Platform",
 
     type: "Full Stack Project",
 
     typeColor: "#2563eb",
 
-    desc: "Built a recipe-sharing platform using Django with responsive frontend design and backend content management. Users can explore recipes, manage content, and interact through a clean and user-friendly interface.",
+    desc: "Shift Fitness is an all-in-one health and fitness app designed to help users achieve their wellness goals through personalized workout plans, activity tracking, nutrition management, progress monitoring, and expert fitness guidance. Stay motivated, track your performance, and transform your lifestyle with Shift Fitness.",
 
     image: null,
 
     tags: [
-      "Python",
-      "Django",
-      "SQLite",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
-      "Tailwind CSS",
+      "PHP",
+      "Laravel",
+      "REST APIs",
+      "MySQL",
+      "Laravel Passport",
+      "Laravel Sanctum",
+      "Spatie",
+      "Eloquent ORM",
+      "Postman",
     ],
 
     highlights: [
-      "Implemented recipe management and CRUD operations",
-      "Designed responsive frontend interfaces using Bootstrap and Tailwind CSS",
-      "Integrated backend logic and database management using Django",
-    ],
+  "Developed scalable backend APIs for fitness tracking and user activity management",
+  "Implemented goal-setting and progress monitoring features to improve user engagement",
+  "Built secure authentication and authorization systems using Laravel Sanctum",
+  "Integrated Redis for OTP verification and high-performance caching",
+  "Created and maintained Swagger API documentation for seamless frontend integration",
+  "Optimized database queries and application performance for better scalability"
+],
 
     gradient: "#2563eb",
 
     github: "https://github.com/harshchaubey18",
 
-    demo: "https://youtu.be/B5EJnMGmEx0",
+    demo: "https://shift-frontend-three.vercel.app/",
   },
   {
-    title: "Online Resume Builder",
+    title: "Be-Trade App",
 
-    subtitle: "Full Stack Resume Builder Application",
+    subtitle: "Full Stack Trading Application",
 
     type: "Full Stack Project",
 
     typeColor: "#16a34a",
 
-    desc: "Developed a full stack online resume builder application using Django and SQLite that allows users to create, manage, and generate professional resumes through a user-friendly interface with dynamic form handling and responsive design.",
+    desc: "Betrade is a trading and investment management platform that enables users to track portfolios, manage transactions, monitor market activities, and access financial insights through a secure and intuitive interface.",
 
     image: null,
 
     tags: [
-      "Python",
-      "Django",
-      "SQLite",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
-      "Full Stack Development",
+      "PHP",
+      "Laravel",
+      "REST APIs",
+      "MySQL",
+      "Laravel Passport",
+      "Laravel Sanctum",
+      "Spatie",
+      "Eloquent ORM",
+      "Postman",
     ],
 
     highlights: [
-      "Implemented dynamic resume creation and management features",
-      "Built responsive frontend interfaces using Bootstrap and CSS",
-      "Integrated backend logic, database management, and form handling using Django",
-    ],
+  "Developed secure RESTful APIs for trading and portfolio management",
+  "Implemented user authentication and role-based access control",
+  "Designed and optimized MySQL database architecture for financial data",
+  "Built transaction management and investment tracking modules",
+  "Integrated real-time data processing and reporting features",
+  "Created comprehensive API documentation using Swagger/OpenAPI",
+  "Implemented secure payment and subscription management workflows",
+  "Optimized backend performance and scalability for high-volume transactions"
+],
 
     gradient: "#16a34a",
 
     github: "https://github.com/harshchaubey18",
 
-    demo: "https://www.youtube.com/",
+    demo: "https://be-trade-frontend.vercel.app/",
   },
   {
-    title: "Bakery Management System",
+    title: "Croose Backend System",
 
-    subtitle: "Django Bakery Web Application",
+    subtitle: "Whatsapp Appointment System",
 
-    type: "Personal Project",
+    type: "Backend Project",
 
     typeColor: "#7c3aed",
 
-    desc: "Developed a bakery management web application using Django and SQLite with responsive frontend design and backend management features. The platform helps manage bakery products, categories, and customer interactions through a clean user interface.",
+    desc: "Croose is a WhatsApp-powered appointment scheduling platform that enables businesses to automate bookings, reminders, and customer communications.",
 
     image: null,
 
     tags: [
-      "Python",
-      "Django",
-      "SQLite",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
+      "PHP",
+      "Laravel",
+      "REST APIs",
+      "MySQL",
+      "Laravel Sanctum",
+      "Spatie",
+      "Eloquent ORM",
+      "Postman",
     ],
 
     highlights: [
-      "Implemented product management and CRUD functionalities",
-      "Built responsive frontend pages using Bootstrap and CSS",
-      "Integrated backend logic and database management using Django and SQLite",
-    ],
+  "Developed appointment booking and scheduling APIs using Laravel",
+  "Integrated WhatsApp Business API for automated customer interactions",
+  "Implemented appointment creation, rescheduling, and cancellation workflows",
+  "Built automated appointment reminders and notification systems",
+  "Designed and optimized MySQL database architecture for appointment management",
+  "Developed webhook integrations for real-time WhatsApp message processing",
+  "Implemented secure authentication and role-based access control",
+  "Created Swagger/OpenAPI documentation for seamless frontend integration"
+],
 
     gradient: "#7c3aed",
 
     github: "https://github.com/harshchaubey18",
 
-    demo: "https://youtu.be/N0gyAlpiF_8",
+    demo: "https://croose.vercel.app/dashboard/",
   },
 
   {
-    title: "Car Marketplace",
+    title: "SCM Scout",
 
-    subtitle: "React Frontend Marketplace Application",
+    subtitle: "Grassroot Football Platform",
 
-    type: "Frontend Project",
+    type: "Backend Project",
 
     typeColor: "#06b6d4",
 
-    desc: "Developed a modern and responsive car marketplace frontend application using React.js. The platform showcases car listings with clean UI components, responsive layouts, and smooth user experience for browsing vehicles.",
+    desc: "SCM Scout is a football scouting and talent management platform that connects players, coaches, scouts, and clubs to discover and develop emerging football talent.",
 
     image: null,
 
     tags: [
-      "React.js",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "Frontend Development",
+      "PHP",
+      "Laravel",
+      "REST APIs",
+      "MySQL",
+      "Laravel Passport",
+      "Laravel Sanctum",
+      "Spatie",
+      "Eloquent ORM",
+      "Postman",
     ],
 
     highlights: [

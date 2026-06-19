@@ -3,7 +3,7 @@ import { useScrollReveal } from "./useScrollReveal";
 const ACHIEVEMENTS = [
   {
     icon: "💼",
-    text: "1+ year of hands-on experience in backend development using PHP Laravel and Django",
+    text: "1 year of hands-on experience in backend development using PHP Laravel and Django",
   },
 
   {
@@ -18,7 +18,7 @@ const ACHIEVEMENTS = [
 
   {
     icon: "🎓",
-    text: "Bachelor of Computer Applications (BCA) — Veer Bahadur Singh Purvanchal University",
+    text: "Diploma In Computer Science Engineering (CSE) — Prasad Polytechnic Jaunpur",
   },
 ];
 
@@ -94,15 +94,15 @@ const Education = () => {
               }}
             >
               <p className="font-mono-custom text-xs text-white opacity-70 mb-1">
-                2021 – 2024
+                2022 – 2025
               </p>
 
               <h3 className="font-bold text-xl text-white">
-                Bachelor of Computer Applications
+                Diploma In Computer Science Engineering
               </h3>
 
               <p className="font-mono-custom text-xs text-white opacity-80 mt-1">
-                Veer Bahadur Singh Purvanchal University, Jaunpur
+               Prasad Polytechnic Jaunpur
               </p>
             </div>
 
@@ -125,7 +125,7 @@ const Education = () => {
                     borderRadius: "4px",
                   }}
                 >
-                  BCA
+                  CSE
                 </div>
 
                 <div>
@@ -140,7 +140,7 @@ const Education = () => {
                     className="font-mono-custom text-xs"
                     style={{ color: "var(--text-muted)" }}
                   >
-                    Graduation Degree
+                    Diploma Degree
                   </p>
                 </div>
               </div>
@@ -187,7 +187,7 @@ const Education = () => {
               }}
             >
               <p className="font-mono-custom text-xs text-white opacity-70 mb-1">
-                June 2024 – September 2024
+                July 2024 – September 2024
               </p>
 
               <h3 className="font-bold text-xl text-white">
@@ -195,7 +195,7 @@ const Education = () => {
               </h3>
 
               <p className="font-mono-custom text-xs text-white opacity-80 mt-1">
-                Digipodium — IT Training & Technology Research Center
+                Techpile Technology Pvt Ltd 
               </p>
             </div>
 

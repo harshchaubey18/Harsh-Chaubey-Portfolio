@@ -140,7 +140,7 @@ const About = () => {
               className="text-sm leading-relaxed mb-4"
               style={{ color: "var(--text-secondary)" }}
             >
-              Backend Developer with 1+ year of hands-on experience building
+              Backend Developer with 1 year of hands-on experience building
               secure and scalable web applications using PHP Laravel, Django,
               RESTful APIs, MySQL, and PostgreSQL. Currently working at{" "}
               <strong style={{ color: "var(--text-primary)" }}>
