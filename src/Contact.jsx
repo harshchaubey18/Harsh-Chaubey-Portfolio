@@ -410,8 +410,8 @@ const Contact = () => {
                     borderRadius: "4px",
                   }}
                 >
-                  ✗ Oops! Something went wrong while sending the message.
-                  amitpathak00700@gmail.com
+                  ✗ Oops! Something went wrong. Please email me directly at
+                  harshchaubey566@gmail.com
                 </p>
               )}
             </form>

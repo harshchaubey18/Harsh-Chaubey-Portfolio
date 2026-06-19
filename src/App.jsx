@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Education from "./Education";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 import "./index.css";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };

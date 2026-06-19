@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useScrollReveal } from "./useScrollReveal";
 import { useMediaQuery } from "@mui/material";
 
@@ -36,7 +36,7 @@ const PROJECTS = [
 
     gradient: "#ff2d20",
 
-    github: "https://github.com/Amitp0070/CookingStories",
+    github: "https://github.com/harshchaubey18",
 
     demo: "https://www.youtube.com/",
   },
@@ -72,7 +72,7 @@ const PROJECTS = [
 
     gradient: "#2563eb",
 
-    github: "https://github.com/Amitp0070",
+    github: "https://github.com/harshchaubey18",
 
     demo: "https://youtu.be/B5EJnMGmEx0",
   },
@@ -108,43 +108,10 @@ const PROJECTS = [
 
     gradient: "#16a34a",
 
-    github: "https://github.com/Amitp0070/Online_Resume_Builder-main",
+    github: "https://github.com/harshchaubey18",
 
     demo: "https://www.youtube.com/",
   },
-  // {
-  //   title: "Weather Now",
-  //   subtitle: "React Weather Application",
-
-  //   type: "Frontend Project",
-
-  //   typeColor: "#16a34a",
-
-  //   desc: "Developed a responsive weather application using React and Vite that allows users to check weather conditions for any city in real-time using weather APIs.",
-
-  //   image: null,
-
-  //   tags: [
-  //     "React.js",
-  //     "Vite",
-  //     "JavaScript",
-  //     "CSS",
-  //     "REST API",
-  //     "Responsive Design",
-  //   ],
-
-  //   highlights: [
-  //     "Real-time weather data integration using APIs",
-  //     "Responsive card-based UI design",
-  //     "Search functionality for different cities",
-  //   ],
-
-  //   gradient: "#16a34a",
-
-  //   github: "https://github.com/Amitp0070",
-
-  //   demo: "https://www.youtube.com/",
-  // },
   {
     title: "Bakery Management System",
 
@@ -176,7 +143,7 @@ const PROJECTS = [
 
     gradient: "#7c3aed",
 
-    github: "https://github.com/Amitp0070/BakeryProject-main",
+    github: "https://github.com/harshchaubey18",
 
     demo: "https://youtu.be/N0gyAlpiF_8",
   },
@@ -211,7 +178,7 @@ const PROJECTS = [
 
     gradient: "#06b6d4",
 
-    github: "https://github.com/Amitp0070/car-marketplace",
+    github: "https://github.com/harshchaubey18",
 
     demo: "https://youtu.be/7WKX1LNfKHg",
   },
@@ -248,7 +215,7 @@ const PROJECTS = [
 
     gradient: "#f59e0b",
 
-    github: "https://github.com/Amitp0070/Django---HTMX-App",
+    github: "https://github.com/harshchaubey18",
 
     demo: "https://youtu.be/nJYE9YM-UmU",
   },
@@ -257,28 +224,15 @@ const PROJECTS = [
 const Projects = () => {
   const isMobile = useMediaQuery("(max-width:578px)");
 
-  const [flowOpen, setFlowOpen] = useState(false);
+  const TYPES = ["All", ...new Set(PROJECTS.map((p) => p.type))];
+  const [filter, setFilter] = useState("All");
 
   useScrollReveal();
 
-  useEffect(() => {
-    if (!flowOpen) return;
-
-    const onKey = (e) => {
-      if (e.key === "Escape") setFlowOpen(false);
-    };
-
-    document.addEventListener("keydown", onKey);
-
-    const prevOverflow = document.body.style.overflow;
-
-    document.body.style.overflow = "hidden";
-
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = prevOverflow;
-    };
-  }, [flowOpen]);
+  const visibleProjects =
+    filter === "All"
+      ? PROJECTS
+      : PROJECTS.filter((p) => p.type === filter);
 
   return (
     <section
@@ -328,53 +282,47 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Modal */}
-        {flowOpen && (
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-label="Project Architecture Flow"
-            onClick={() => setFlowOpen(false)}
-            style={{
-              position: "fixed",
-              inset: 0,
-              background: "rgba(15,15,15,0.65)",
-              backdropFilter: "blur(4px)",
-              WebkitBackdropFilter: "blur(4px)",
-              zIndex: 100,
-              overflowY: "auto",
-              padding: isMobile ? "16px 8px" : "32px 24px",
-              animation: "reveal-fade 0.25s ease forwards",
-            }}
-          >
-            <div
-              onClick={(e) => e.stopPropagation()}
-              style={{
-                position: "relative",
-                maxWidth: "1280px",
-                margin: "0 auto",
-                background: "var(--bg-2)",
-                border: "var(--border)",
-                boxShadow: "var(--shadow-xl)",
-                borderRadius: "4px",
-                overflow: "hidden",
-              }}
+        {/* Filter Tabs */}
+        <div className="sr-hidden sr-d2 flex flex-wrap gap-2 mb-8">
+          {TYPES.map((t) => (
+            <button
+              key={t}
+              onClick={() => setFilter(t)}
+              className="font-mono-custom text-xs px-4 py-2 transition-all duration-150"
+              style={
+                filter === t
+                  ? {
+                      background: "var(--accent)",
+                      color: "#fff",
+                      border: "var(--border)",
+                      boxShadow: "2px 2px 0px #1a1a1a",
+                      borderRadius: "4px",
+                      fontWeight: 700,
+                    }
+                  : {
+                      background: "var(--bg-white)",
+                      color: "var(--text-secondary)",
+                      border: "var(--border)",
+                      boxShadow: "2px 2px 0px rgba(26,26,26,0.25)",
+                      borderRadius: "4px",
+                      fontWeight: 600,
+                    }
+              }
             >
-              <GymProjectFlow />
-            </div>
-          </div>
-        )}
+              {t}
+            </button>
+          ))}
+        </div>
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {PROJECTS.map((p, i) => (
+          {visibleProjects.map((p, i) => (
             <div
-              key={i}
-              className={`sr-hidden sr-d${
-                (i % 2) + 1
-              } card overflow-hidden flex flex-col`}
+              key={`${filter}-${i}`}
+              className="reveal-up card overflow-hidden flex flex-col"
               style={{
                 borderRadius: "4px",
+                animationDelay: `${i * 0.05}s`,
               }}
             >
               {/* Top Bar */}
@@ -494,7 +442,7 @@ const Projects = () => {
                       borderRadius: "4px",
                     }}
                   >
-                    Live Demo ↗
+                    Video Demo ↗
                   </a>
                 </div>
               </div>

@@ -1,85 +1,61 @@
 const Footer = () => {
   const year = new Date().getFullYear();
 
+  const LINKS = [
+    { label: "GitHub", href: "https://github.com/harshchaubey18" },
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/harsh-chaubey-794657321/",
+    },
+    { label: "Email", href: "mailto:harshchaubey566@gmail.com" },
+  ];
+
   return (
     <footer
-      className="py-5"
+      className="py-10"
       style={{
         background: "var(--footer-bg)",
         borderTop: "2px solid #1a1a1a",
       }}
     >
-      <div
-        className="max-w-6xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-5"
-        style={{
-          background: "var(--inner-footer-bg)",
-          // background: "rgba(255,255,255,0.01)",
-          border: "1px solid rgba(255,255,255,0.06)",
-          borderRadius: "4px",
-          backdropFilter: "blur(10px)",
-        }}
-      >
+      <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
         {/* Left */}
         <div className="flex items-center gap-3">
           <div
             className="w-10 h-10 flex items-center justify-center font-bold text-sm"
             style={{
               background: "var(--accent)",
-              border: "1.5px solid #fff",
+              border: "1.5px solid #ffffff",
               color: "#fff",
               borderRadius: "4px",
-              boxShadow: "2px 2px 0px rgba(255,255,255,0.15)",
+              boxShadow: "2px 2px 0px rgba(255,255,255,0.25)",
             }}
           >
-            AP
+            HC
           </div>
 
           <div>
-            <p className="font-bold text-dark text-sm">Harsh Chaubey</p>
-
-            <p className="font-mono-custom text-xs text-dark">
+            <p className="font-bold text-sm text-white">Harsh Chaubey</p>
+            <p className="font-mono-custom text-xs text-white opacity-70">
               Backend Developer
             </p>
           </div>
         </div>
 
         {/* Social Links */}
-        <div className="flex items-center text-dark flex-wrap justify-center gap-3">
-          {[
-            {
-              label: "GitHub",
-
-              href: "https://github.com/Amitp0070",
-            },
-
-            {
-              label: "LinkedIn",
-
-              href: "https://www.linkedin.com/",
-            },
-
-            {
-              label: "Email",
-
-              href: "mailto:amitpathak00700@gmail.com",
-            },
-          ].map((s, i) => (
+        <div className="flex items-center flex-wrap justify-center gap-3">
+          {LINKS.map((s, i) => (
             <a
               key={i}
               href={s.href}
-              target="_blank"
+              target={s.href.startsWith("http") ? "_blank" : undefined}
               rel="noopener noreferrer"
-              className="font-mono-custom text-dark text-xs transition-all duration-300 px-4 py-2"
+              className="font-mono-custom text-xs px-4 py-2 transition-transform duration-200 hover:-translate-y-0.5"
               style={{
-                border: "1px solid rgba(255,255,255,0.08)",
+                color: "#ffffff",
+                border: "1px solid rgba(255,255,255,0.25)",
                 borderRadius: "4px",
-                background: "rgba(255,255,255,0.03)",
-              }}
-              onMouseEnter={(e) => {
-                e.target.style.scale = "1.5";
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.scale = "1.0";
+                background: "rgba(255,255,255,0.06)",
               }}
             >
               {s.label} ↗
@@ -88,7 +64,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="font-mono-custom text-dark text-xs">
+        <p className="font-mono-custom text-xs text-white opacity-60">
           © {year} Harsh Chaubey
         </p>
       </div>

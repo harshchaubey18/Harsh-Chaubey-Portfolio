@@ -90,7 +90,8 @@ const CARDS = [
 
 const wordStyle = {
   display: "inline-block",
-  background: "linear-gradient(90deg, #3e87e0, #330aac, #7c7081)",
+  backgroundImage:
+    "linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%)",
   WebkitBackgroundClip: "text",
   WebkitTextFillColor: "transparent",
   backgroundClip: "text",
@@ -123,6 +124,7 @@ const Hero = () => {
       style={{
         background: "var(--bg)",
         paddingTop: "80px",
+        minHeight: "100vh",
       }}
     >
       {/* Decorative stamps */}
@@ -234,7 +236,19 @@ const Hero = () => {
               </button>
 
               <a
-                href="https://www.linkedin.com/in/amit-pathak-558971277/"
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline px-8 py-4 text-base flex items-center justify-center"
+                style={{
+                  borderRadius: "4px",
+                }}
+              >
+                Download Resume ↓
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/harsh-chaubey-794657321/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline px-8 py-4 text-base flex items-center justify-center"

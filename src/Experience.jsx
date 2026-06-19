@@ -48,13 +48,13 @@ const EXPERIENCES = [
 
     location: "Lucknow, India",
 
-    type: "Summer Tranning",
+    type: "Summer Training",
 
     color: "#2563eb",
 
     projects: [
       {
-        name: "College Mangement System",
+        name: "College Management System",
 
         tags: [
           "Django",

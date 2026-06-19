@@ -6,7 +6,7 @@
 
 :root {
   --bg: #ffffff;
-  --bg-2: #ffffff;
+  --bg-2: #f5f4ef;
   --bg-card: #ffffff;
   --bg-white: #ffffff;
   --shadow-color: #1a1a1a;
@@ -25,7 +25,7 @@
   --header-bg: rgba(255, 255, 255, 0.97);
   --input-bg: #ffffff;
   --input-text: #0f0f0f;
-  --footer-bg: #ffffff;
+  --footer-bg: #1a1a1a;
   --inner-footer-bg: #ffffffd4;
 }
 
@@ -202,6 +202,20 @@ body {
 .sr-visible {
   opacity: 1 !important;
   transform: translate(0) !important;
+}
+
+/* Accessibility + reliability: never trap content invisible */
+@media (prefers-reduced-motion: reduce) {
+  .sr-hidden,
+  .sr-left,
+  .sr-right,
+  .reveal-up,
+  .reveal-fade {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
 }
 .sr-d1 {
   transition-delay: 0.05s;
