@@ -3,43 +3,50 @@ import { useScrollReveal } from "./useScrollReveal";
 import { useMediaQuery } from "@mui/material";
 
 const PROJECTS = [
-  {
-    title: "Hariss International",
-    subtitle: "Laravel Backend Management System",
+  
+//     title: "Hariss International",
+//     subtitle: "Laravel Backend Management System",
 
-    type: "Professional Project",
+//     type: "Professional Project",
 
-    typeColor: "#ff2d20",
+//     typeColor: "#ff2d20",
 
-    desc: "Contributed to the development of a Laravel-based backend system following MVC architecture and clean coding practices. Worked on authentication systems, RESTful APIs, request validation, role-based access control, and relational database optimization using Eloquent ORM.",
+//     desc: "Contributed to the development of a Laravel-based backend system following MVC architecture and clean coding practices. Worked on authentication systems, RESTful APIs, request validation, role-based access control, and relational database optimization using Eloquent ORM.",
 
-    image: null,
+//     image: null,
 
-    tags: [
-      "PHP",
-      "Laravel",
-      "REST APIs",
-      "MySQL",
-      "PostgreSQL",
-      "Laravel Passport",
-      "Laravel Sanctum",
-      "Spatie",
-      "Eloquent ORM",
-      "Postman",
-    ],
+//     tags: [
+//       "PHP",
+//       "Laravel",
+//       "REST APIs",
+//       "MySQL",
+//       "PostgreSQL",
+//       "Laravel Passport",
+//       "Laravel Sanctum",
+//       "Spatie",
+//       "Eloquent ORM",
+//       "Postman",
+//     ],
 
-    highlights: [
-      "Developed secure RESTful APIs with validation and centralized exception handling",
-      "Implemented authentication using Laravel Passport & Sanctum",
-      "Optimized relational database queries using Eloquent ORM and indexing",
-    ],
+//     highlights: [
+//   "Developed scalable ERP modules using Laravel to streamline business operations",
+//   "Designed and implemented RESTful APIs for seamless integration across multiple business processes",
+//   "Built role-based access control and user management features using Laravel Sanctum and Spatie Permissions",
+//   "Developed employee, customer, and vendor management modules",
+//   "Implemented inventory, procurement, and order management workflows",
+//   "Designed and optimized MySQL database architecture for large-scale enterprise data",
+//   "Created reporting and analytics modules to support business decision-making",
+//   "Integrated notification, approval, and workflow automation systems",
+//   "Optimized application performance through query optimization and caching techniques",
+//   "Maintained comprehensive API documentation using Swagger/OpenAPI"
+// ],
 
-    gradient: "#ff2d20",
+//     gradient: "#ff2d20",
 
-    github: "https://github.com/harshchaubey18",
+//     github: "https://github.com/harshchaubey18",
 
-    demo: "https://www.youtube.com/",
-  },
+//     demo: "https://www.youtube.com/",
+//   },
 
   {
     title: "Shift Fitness App",
@@ -66,12 +73,16 @@ const PROJECTS = [
     ],
 
     highlights: [
-  "Developed scalable backend APIs for fitness tracking and user activity management",
-  "Implemented goal-setting and progress monitoring features to improve user engagement",
-  "Built secure authentication and authorization systems using Laravel Sanctum",
-  "Integrated Redis for OTP verification and high-performance caching",
-  "Created and maintained Swagger API documentation for seamless frontend integration",
-  "Optimized database queries and application performance for better scalability"
+  "Developed scalable RESTful APIs using Laravel for fitness and activity management",
+  "Implemented daily step tracking and personalized fitness goal management features",
+  "Built user progress monitoring and activity history tracking modules",
+  "Integrated Redis-based OTP authentication for secure user onboarding",
+  "Designed and optimized MySQL database architecture for health and fitness data",
+  "Implemented secure authentication and authorization using Laravel Sanctum",
+  "Developed target-setting and performance analytics functionalities",
+  "Created comprehensive Swagger/OpenAPI documentation for frontend integration",
+  "Optimized application performance through database query optimization and caching",
+  "Collaborated with frontend developers to deliver seamless API integrations"
 ],
 
     gradient: "#2563eb",
@@ -471,7 +482,7 @@ const Projects = () => {
                       borderRadius: "4px",
                     }}
                   >
-                    Video Demo ↗
+                     Demo ↗
                   </a>
                 </div>
               </div>
