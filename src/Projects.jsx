@@ -138,7 +138,7 @@ const PROJECTS = [
 
     subtitle: "Whatsapp Appointment System",
 
-    type: "Backend Project",
+    type: "Full Stack Project",
 
     typeColor: "#7c3aed",
 
@@ -180,7 +180,7 @@ const PROJECTS = [
 
     subtitle: "Grassroot Football Platform",
 
-    type: "Backend Project",
+    type: "Full Stack Project",
 
     typeColor: "#06b6d4",
 
