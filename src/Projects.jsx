@@ -190,9 +190,14 @@ const PROJECTS = [
     ],
 
     highlights: [
-      "Built responsive car listing interface using React.js",
-      "Created reusable frontend UI components and layouts",
-      "Implemented modern responsive design for multiple screen sizes",
+      "Developed scalable RESTful APIs using Laravel for player and team management",
+      "Implemented role-based access control for players, coaches, scouts, and administrators",
+      "Built player profile management and talent showcase features",
+      "Developed match, league, and tournament management modules",
+      "Implemented advanced filtering and search functionality for talent discovery",
+      "Designed and optimized MySQL database architecture for sports management data",
+      "Integrated secure authentication and authorization using Laravel Sanctum",
+      "Created comprehensive Swagger/OpenAPI documentation for frontend integration",
     ],
 
     gradient: "#06b6d4",
@@ -202,41 +207,46 @@ const PROJECTS = [
     demo: "https://youtu.be/7WKX1LNfKHg",
   },
   {
-    title: "Finance Tracker",
+    title: "Orvell Pulse System",
 
-    subtitle: "Full Stack Finance Management Application",
+    subtitle: "Whatsapp Online Order System",
 
     type: "Full Stack Project",
 
     typeColor: "#f59e0b",
 
-    desc: "Developed a full stack finance tracking application using Django and HTMX that allows users to monitor income, expenses, and overall financial stability through dynamic and interactive user interfaces with real-time updates.",
+    desc: "Orvell is a WhatsApp-based online ordering platform that allows businesses to manage customer orders, product catalogs, and order tracking through automated messaging workflows.",
 
     image: null,
 
     tags: [
-      "Python",
-      "Django",
-      "HTMX",
-      "SQLite",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
-      "Full Stack Development",
+      "PHP",
+      "Laravel",
+      "REST APIs",
+      "MySQL",
+      "Laravel Passport",
+      "Laravel Sanctum",
+      "Spatie",
+      "Eloquent ORM",
+      "Postman",
     ],
 
     highlights: [
-      "Implemented income and expense tracking functionalities",
-      "Built dynamic real-time UI interactions using HTMX",
-      "Integrated backend logic and database management using Django and SQLite",
+      "Developed scalable RESTful APIs using Laravel for order and customer management",
+      "Integrated WhatsApp Business API for automated ordering and customer communication",
+      "Built product catalog, order placement, and order tracking modules",
+      "Implemented real-time order status updates and notification workflows",
+      "Designed and optimized MySQL database architecture for order management",
+      "Developed webhook integrations for processing WhatsApp messages and events",
+      "Implemented secure authentication and role-based access control",
+      "Created comprehensive Swagger/OpenAPI documentation for seamless frontend integration",
     ],
 
     gradient: "#f59e0b",
 
     github: "https://github.com/harshchaubey18",
 
-    demo: "https://youtu.be/nJYE9YM-UmU",
+    demo: "https://orvell-pulse.vercel.app/",
   },
 ];
 

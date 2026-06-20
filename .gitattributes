@@ -1,0 +1,9 @@
+# Treat these as binary so Git never applies line-ending conversion
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary

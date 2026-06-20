@@ -237,6 +237,7 @@ const Hero = () => {
 
               <a
                 href="/resume.pdf"
+                download="Harsh_Chaubey_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline px-8 py-4 text-base flex items-center justify-center"
