@@ -215,7 +215,7 @@ const PROJECTS = [
 
     github: "https://github.com/harshchaubey18",
 
-    demo: "https://youtu.be/7WKX1LNfKHg",
+    demo: "https://scm-red.vercel.app/",
   },
   {
     title: "Orvell Pulse System",

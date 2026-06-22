@@ -13,8 +13,8 @@ const CARDS = [
     label: "PHP + Laravel",
     icon: "🚀",
     color: "#ff2d20",
-    top: "5%",
-    left: "3%",
+    top: "3%",
+    left: "2%",
     drift: "-10px",
     tilt: "-2deg",
     delay: "0s",
@@ -25,17 +25,28 @@ const CARDS = [
     icon: "🔗",
     color: "#2563eb",
     top: "0%",
-    left: "55%",
+    left: "52%",
     drift: "-14px",
     tilt: "1.5deg",
     delay: "-2s",
     dur: "6.5s",
   },
   {
+    label: "Eloquent ORM",
+    icon: "⚙",
+    color: "#f97316",
+    top: "20%",
+    left: "27%",
+    drift: "-11px",
+    tilt: "-1.5deg",
+    delay: "-0.5s",
+    dur: "6.2s",
+  },
+  {
     label: "Laravel Passport",
     icon: "🔐",
     color: "#f59e0b",
-    top: "42%",
+    top: "40%",
     left: "0%",
     drift: "-8px",
     tilt: "-1deg",
@@ -46,8 +57,8 @@ const CARDS = [
     label: "MySQL + PostgreSQL",
     icon: "🗄",
     color: "#16a34a",
-    top: "40%",
-    left: "56%",
+    top: "38%",
+    left: "54%",
     drift: "-12px",
     tilt: "2deg",
     delay: "-3s",
@@ -57,8 +68,8 @@ const CARDS = [
     label: "Django Backend",
     icon: "🐍",
     color: "#7c3aed",
-    top: "74%",
-    left: "12%",
+    top: "76%",
+    left: "6%",
     drift: "-10px",
     tilt: "-0.5deg",
     delay: "-1.5s",
@@ -68,23 +79,12 @@ const CARDS = [
     label: "Role Based Access",
     icon: "🛡",
     color: "#10b981",
-    top: "68%",
-    left: "55%",
+    top: "74%",
+    left: "50%",
     drift: "-9px",
     tilt: "1deg",
     delay: "-2.5s",
     dur: "5.8s",
-  },
-  {
-    label: "Eloquent ORM",
-    icon: "⚙",
-    color: "#f97316",
-    top: "22%",
-    left: "28%",
-    drift: "-11px",
-    tilt: "-1.5deg",
-    delay: "-0.5s",
-    dur: "6.2s",
   },
 ];
 
@@ -147,8 +147,8 @@ const Hero = () => {
         INDIA · UTC+5:30
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-4 pb-20 w-full">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 pt-4 pb-20 w-full">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left">
             {isMobile && (
@@ -208,7 +208,7 @@ const Hero = () => {
             </h1>
 
             <p
-              className="reveal-fade delay-500 text-lg max-w-lg mx-auto lg:mx-0 mt-6 mb-8 leading-relaxed"
+              className="reveal-fade delay-500 text-lg max-w-xl mx-auto lg:mx-0 mt-6 mb-8 leading-relaxed"
               style={{
                 color: "var(--text-secondary)",
               }}
@@ -302,8 +302,8 @@ const Hero = () => {
           </div>
 
           {/* Floating Tech Cards */}
-          <div className="reveal-fade delay-400 flex-shrink-0 w-full lg:w-[420px] hidden lg:block">
-            <div className="relative w-full h-[480px]">
+          <div className="reveal-fade delay-400 flex-shrink-0 w-full lg:w-[540px] hidden lg:block">
+            <div className="relative w-full h-[540px]">
               {CARDS.map((c, i) => (
                 <div
                   key={i}
@@ -319,7 +319,7 @@ const Hero = () => {
                     animationDelay: c.delay,
                     "--drift": c.drift,
                     "--tilt": c.tilt,
-                    minWidth: "180px",
+                    minWidth: "200px",
                   }}
                 >
                   <div
@@ -347,7 +347,7 @@ const Hero = () => {
 
               {/* Center Decoration */}
               <div
-                className="absolute top-[48%] left-[28%] w-20 h-20 flex items-center justify-center font-display text-4xl"
+                className="absolute top-[52%] left-[29%] w-20 h-20 flex items-center justify-center font-display text-4xl"
                 style={{
                   background: "var(--accent)",
                   border: "var(--border)",
@@ -360,7 +360,7 @@ const Hero = () => {
               </div>
 
               <div
-                className="absolute top-[8%] right-[8%] w-14 h-14 flex items-center justify-center font-display text-3xl"
+                className="absolute top-[89%] left-[36%] w-14 h-14 flex items-center justify-center font-display text-3xl"
                 style={{
                   background: "var(--accent)",
                   border: "var(--border)",
