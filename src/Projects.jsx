@@ -355,7 +355,7 @@ const Projects = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:items-start">
           {visibleProjects.map((p, i) => (
             <div
               key={`${filter}-${i}`}
@@ -413,14 +413,20 @@ const Projects = () => {
 
                 {/* Description */}
                 <p
-                  className="text-sm leading-relaxed mb-4 flex-1"
+                  className="text-sm leading-relaxed mb-5"
                   style={{ color: "var(--text-secondary)" }}
                 >
                   {p.desc}
                 </p>
 
                 {/* Highlights */}
-                <div className="mb-4">
+                <p
+                  className="font-mono-custom text-xs uppercase tracking-widest mb-3"
+                  style={{ color: "var(--text-muted)" }}
+                >
+                  Key Highlights
+                </p>
+                <div className="mb-5">
                   {p.highlights.map((h, j) => (
                     <div
                       key={j}
@@ -440,6 +446,12 @@ const Projects = () => {
                 </div>
 
                 {/* Tags */}
+                <p
+                  className="font-mono-custom text-xs uppercase tracking-widest mb-3"
+                  style={{ color: "var(--text-muted)" }}
+                >
+                  Tech Stack
+                </p>
                 <div className="flex flex-wrap gap-2 mb-5">
                   {p.tags.map((t, j) => (
                     <span
